@@ -4,4 +4,49 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://secondhand.binaracademy.org/'</initValue>
+      <name>SecondHand_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'putritest1@gmail.com'</initValue>
+      <name>ValidUser_Seller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'putritest12@gmail.com'</initValue>
+      <name>InvalidUser_Seller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>ValidPassword_Seller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abcdef'</initValue>
+      <name>InvalidPassword_Seller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'putritest2@gmail.com'</initValue>
+      <name>ValidUser_Buyer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'putritest22@gmail.com'</initValue>
+      <name>InvalidUser_Buyer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>ValidPassword_Buyer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abcdef'</initValue>
+      <name>InvalidPassword_Buyer</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
