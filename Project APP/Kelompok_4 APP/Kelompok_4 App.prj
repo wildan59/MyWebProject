@@ -4,9 +4,10 @@
    <name>Kelompok_4 App</name>
    <tag></tag>
    <UUID>b4b35d90-507b-4576-a7d1-92d930ced075</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\DATA PUTRI\BINAR ACADEMY\PLATINUM CHALLENGE\Kelompok_4\Project App\Kelompok_4 App\Kelompok_4 App.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
