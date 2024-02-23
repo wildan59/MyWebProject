@@ -25,7 +25,7 @@ WebUI.verifyElementVisible(findTestObject('SecondHand Website/02. Login/btn_Masu
 
 WebUI.setText(findTestObject('SecondHand Website/02. Login/login-input_Email'), GlobalVariable.ValidUser_Seller)
 
-WebUI.setText(findTestObject('SecondHand Website/02. Login/login-input_Password'), GlobalVariable.InvalidPassword_Seller)
+WebUI.setText(findTestObject('SecondHand Website/02. Login/login-input_Password'), '')
 
 WebUI.click(findTestObject('SecondHand Website/02. Login/btn_Masuk'))
 
