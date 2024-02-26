@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/02. Login/login-input_Email'))
 
-WebUI.maximizeWindow()
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/02. Login/login-input_Password'))
 
-WebUI.navigateToUrl(GlobalVariable.SecondHand_Url)
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/02. Login/btn_Masuk'))
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/01. Page Utama/btn_Masuk'))
+WebUI.setText(findTestObject('SecondHand Website/02. Login/login-input_Email'), '')
 
-WebUI.click(findTestObject('SecondHand Website/01. Page Utama/btn_Masuk'))
+WebUI.setText(findTestObject('SecondHand Website/02. Login/login-input_Password'), GlobalVariable.ValidPassword_Buyer)
+
+WebUI.click(findTestObject('SecondHand Website/02. Login/btn_Masuk'))
 

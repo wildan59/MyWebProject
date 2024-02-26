@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Feature 1 Login (Putri)/00. Verify Page Before Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/02. Login/login-input_Email'))
 
-WebUI.callTestCase(findTestCase('Feature 1 Login (Putri)/01. Seller/01. Login Success Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/02. Login/login-input_Password'))
 
-WebUI.delay(5)
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/02. Login/btn_Masuk'))
 
-WebUI.callTestCase(findTestCase('Feature 1 Login (Putri)/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('SecondHand Website/02. Login/login-input_Email'), GlobalVariable.ValidUser_Buyer)
+
+WebUI.setText(findTestObject('SecondHand Website/02. Login/login-input_Password'), GlobalVariable.InvalidPassword_Buyer)
+
+WebUI.click(findTestObject('SecondHand Website/02. Login/btn_Masuk'))
 
