@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>user shouldn't be able to login using invalid email credential</description>
-   <name>01. Login With Empty Email</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>09934264-6bf2-43a9-8fe4-02ac142f21d9</testCaseGuid>
-</TestCaseEntity>

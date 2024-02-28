@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>verify login with valid credential</description>
-   <name>02. Login Success Buyer</name>
-   <tag>login positive</tag>
-   <comment></comment>
-   <testCaseGuid>5b0c3b52-6f54-48e7-8e4a-839bff258ecf</testCaseGuid>
-</TestCaseEntity>
