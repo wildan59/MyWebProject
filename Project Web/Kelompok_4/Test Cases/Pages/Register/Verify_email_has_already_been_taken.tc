@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_email_has_already_been_taken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35716b9a-2ebd-4023-a9c5-06c4ce802c02</testCaseGuid>
+</TestCaseEntity>
