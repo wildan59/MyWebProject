@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Feature 1 Login (Putri)/00. Verify Page Before Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 Login (Putri)/00. Verify Page Before Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Feature 1 Login (Putri)/01. Seller/01. Login Success Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 Login (Putri)/01. Seller/01. Login Success Seller'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-WebUI.callTestCase(findTestCase('Feature 1 Login (Putri)/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 Login (Putri)/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
 
