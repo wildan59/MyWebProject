@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@onclick='clickFileInput(this)']</value>
+         <value>//input[@id='product_images']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>331773f1-f697-4e4c-873e-6a4537b8ce9a</webElementGuid>
+      <webElementGuid>2cf7d1ff-3f67-4981-ad9d-bbeaea76ed6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-image rounded-4 img-preview</value>
-      <webElementGuid>04e624da-90a5-4396-99a0-cc667bdd0ba5</webElementGuid>
+      <webElementGuid>03da9945-ad3f-46ec-9836-4dae48fa50e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>clickFileInput(this)</value>
-      <webElementGuid>32135877-d443-451a-a7f6-51aa877afcbb</webElementGuid>
+      <webElementGuid>3e893925-7767-47b2-bf6c-a8106d2af2ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;input-images&quot;)/div[@class=&quot;form-image rounded-4 img-preview&quot;]</value>
-      <webElementGuid>17ce341a-84e9-45b7-8d1a-a083ecb1118e</webElementGuid>
+      <webElementGuid>bce93ec3-a0d6-4ea4-9490-e5b65fc4537c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@onclick='clickFileInput(this)']</value>
-      <webElementGuid>31c0476b-e9d0-4939-9801-054497083b4b</webElementGuid>
+      <webElementGuid>413ed76b-de08-494e-89df-6c095b0f25c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='input-images']/div</value>
-      <webElementGuid>cf006afa-2cca-40ab-86ee-0237e0e2b622</webElementGuid>
+      <webElementGuid>7aad8ad0-f092-4941-88e2-8e80905a396f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::div[2]</value>
-      <webElementGuid>494a389c-47ee-4a76-84ae-0ab720ba389e</webElementGuid>
+      <webElementGuid>5debc8df-36ab-4041-8bf5-3c02a93c4424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::div[3]</value>
-      <webElementGuid>795635c3-66ff-47e9-a2b6-e6f7f2b3eca9</webElementGuid>
+      <webElementGuid>340867f7-77e8-4293-b39c-e4ce92aa8f63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::div[1]</value>
-      <webElementGuid>e7729ede-9237-4151-b698-c46c94b0a787</webElementGuid>
+      <webElementGuid>d6106746-1646-4b1e-9ffc-fb881d58522c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::div[1]</value>
-      <webElementGuid>865f0c1e-98e7-4839-bc6b-0a52c61e9c13</webElementGuid>
+      <webElementGuid>29822a88-8593-4b50-8cb4-1935691c4d0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div</value>
-      <webElementGuid>cfc0844b-d4ee-4c6d-902e-a81c80193580</webElementGuid>
+      <webElementGuid>2532d5c1-b9a4-4cab-ba2a-e83f71a1b5eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
