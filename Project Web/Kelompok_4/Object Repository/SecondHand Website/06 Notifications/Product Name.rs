@@ -6,11 +6,11 @@
    <elementGuidId>97a8a7c1-4d65-4a22-af3c-9cde676702d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//section//div[text()='${productName}'])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//section//div[text()='${productName}'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
