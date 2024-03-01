@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan transaksi'])[1]/following::h6[1]</value>
+         <value>(//section//h6[normalize-space(text())='${status}'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
-      <webElementGuid>fd097fdf-031b-4c62-a30d-2355d7d3f976</webElementGuid>
+      <webElementGuid>ebead4c3-cc10-4325-bd99-fe547e042f1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>offer-status text-black-50</value>
-      <webElementGuid>e9c44005-e942-4bba-9b33-e8bee93093c7</webElementGuid>
+      <webElementGuid>8b343c79-ddf1-488b-8f2f-bba3659a45aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <value>
               Penawaran produk ditolak
             </value>
-      <webElementGuid>2af2d6ed-da7f-472c-9395-d721d8fb6799</webElementGuid>
+      <webElementGuid>76db15cc-8c6c-4e11-833f-a419d9316498</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container-sm&quot;]/ul[@class=&quot;offers mt-5&quot;]/li[@class=&quot;offer gap-4 mt-5&quot;]/div[@class=&quot;offer-content&quot;]/div[@class=&quot;offer-header&quot;]/h6[@class=&quot;offer-status text-black-50&quot;]</value>
-      <webElementGuid>0c2f9ede-4879-481b-931b-88ad7e1448e4</webElementGuid>
+      <webElementGuid>52be6ddd-cbdb-400b-b6d5-e993d73ebb89</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan transaksi'])[1]/following::h6[1]</value>
-      <webElementGuid>bc29e146-8c74-42c9-9cda-407b3d69d557</webElementGuid>
+      <webElementGuid>495bf030-3fd5-4f31-b0d6-42afb00f0023</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil terjual'])[1]/following::h6[1]</value>
-      <webElementGuid>b4b750fb-0f0a-4b5e-ac04-a52cf65db805</webElementGuid>
+      <webElementGuid>88632cac-369a-40ba-a70b-2bacb6b12146</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 200.000'])[1]/preceding::h6[1]</value>
-      <webElementGuid>ae3f6433-620a-48a3-86b6-8445858e6539</webElementGuid>
+      <webElementGuid>b84b657b-cb41-4ddf-bf50-5c837a8b23cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ditawar Rp 10.000'])[1]/preceding::h6[1]</value>
-      <webElementGuid>9facabab-9296-448b-b728-20daa71b5ed4</webElementGuid>
+      <webElementGuid>49b9b26d-2ed1-4233-9219-64541f3197cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Penawaran produk ditolak']/parent::*</value>
-      <webElementGuid>69cc82f4-3abf-4e6f-92f7-525aa8849146</webElementGuid>
+      <webElementGuid>8db12dab-8d56-4b1a-9886-3d29442eb150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/div/h6</value>
-      <webElementGuid>46eabbb2-4a6a-4414-b377-676651dc8c07</webElementGuid>
+      <webElementGuid>10f59afc-8afa-4bf1-8fab-42de2d1ffad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
             ' or . = '
               Penawaran produk ditolak
             ')]</value>
-      <webElementGuid>3e74ef2d-c60a-41c9-a238-796cd0dd0f2a</webElementGuid>
+      <webElementGuid>381bbe0d-e28f-4e7c-b6ad-979970e41113</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
