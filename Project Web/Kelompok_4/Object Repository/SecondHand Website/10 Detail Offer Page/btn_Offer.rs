@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Offer</name>
+   <tag></tag>
+   <elementGuidId>47d05a1a-011b-47b8-9ef4-b763d049bf77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-lg.btn-primary.fs-6.rounded-4.w-100.mb-3.py-3.fw-bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c43d0bc5-d4ee-46cf-b612-e2d07925e31f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-lg btn-primary fs-6 rounded-4 w-100 mb-3 py-3 fw-bold</value>
+      <webElementGuid>54db8c33-0a6a-40fb-b82e-d104a175bfcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>04940bcd-e730-4493-8ad4-f30f873ef69f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#offerModal</value>
+      <webElementGuid>4faeeaa4-4283-49cf-8ef4-ba016be48f0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saya tertarik dan ingin nego</value>
+      <webElementGuid>fd4463c8-b699-4ccb-8b2a-97815035a4c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/button[@class=&quot;btn btn-lg btn-primary fs-6 rounded-4 w-100 mb-3 py-3 fw-bold&quot;]</value>
+      <webElementGuid>cbbc76e9-eee6-4a8a-9b62-276108a1e346</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::button[1]</value>
+      <webElementGuid>93efb345-e7d9-4d91-b298-0213953947d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='zarabiba'])[2]/preceding::button[1]</value>
+      <webElementGuid>973e90d0-7b4d-4d84-b732-b3591fd7c0b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[2]/preceding::button[1]</value>
+      <webElementGuid>dc15d045-a75c-4060-9f3a-71242b00e6ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Saya tertarik dan ingin nego']/parent::*</value>
+      <webElementGuid>57cb1278-3b82-4d2c-b897-5730f48551a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button</value>
+      <webElementGuid>70d0b100-a291-4288-85af-587098f83e4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Saya tertarik dan ingin nego' or . = 'Saya tertarik dan ingin nego')]</value>
+      <webElementGuid>866ad455-fe53-4e69-b761-2d1f558658de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

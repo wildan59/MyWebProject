@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product_name</name>
+   <tag></tag>
+   <elementGuidId>b670de78-a164-432b-a9f4-bd617baec8a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title.fs-5.fw-bolder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::h5[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>8a08bc59-3936-4151-96ab-786a56c36931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title fs-5 fw-bolder</value>
+      <webElementGuid>cd60ff38-50e4-40c8-b12a-e00f2eb10e54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>8XX</value>
+      <webElementGuid>7bdc8b93-0503-433a-8f33-5357e57e28de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title fs-5 fw-bolder&quot;]</value>
+      <webElementGuid>bcd98e3e-b33e-4b10-8db5-ba4fc54bb8b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::h5[1]</value>
+      <webElementGuid>e508c528-4843-4b21-9559-ef81a67ff4b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::h5[1]</value>
+      <webElementGuid>53ae11e2-63c0-475b-85cc-f7d18546aeaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::h5[1]</value>
+      <webElementGuid>b206adbc-9215-4326-97ca-b4ad7ecae3c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/h5</value>
+      <webElementGuid>47b99366-2182-4b62-b796-2a1b63eb4df8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = '8XX' or . = '8XX')]</value>
+      <webElementGuid>24356939-1706-40bc-b76c-b06d0dd5cc21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
