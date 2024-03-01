@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.setText(findTestObject('SecondHand Website/Register/input_name'), username)
+
+WebUI.setText(findTestObject('SecondHand Website/Register/input_email'), email)
+
+WebUI.setText(findTestObject('SecondHand Website/Register/input_password'), password)
+
+WebUI.click(findTestObject('SecondHand Website/Register/btn_daftar'))
+

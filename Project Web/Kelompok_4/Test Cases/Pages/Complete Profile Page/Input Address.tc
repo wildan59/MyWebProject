@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2dce1e3e-97fc-480f-a597-e4f491eac348</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a30b1f6-6152-4cce-97d6-18b901b67531</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3a30b1f6-6152-4cce-97d6-18b901b67531</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+</TestCaseEntity>

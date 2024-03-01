@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/05 Add Product/label_Nama Produk'))
+WebUI.clearText(findTestObject('SecondHand Website/Add Product/input_field_namaProduk'))
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/05 Add Product/label_Harga Produk'))
+WebUI.setText(findTestObject('SecondHand Website/Add Product/input_field_namaProduk'), productName)
 
