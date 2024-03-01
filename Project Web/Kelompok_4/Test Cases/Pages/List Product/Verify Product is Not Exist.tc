@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Product is Not Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f594a08a-693e-4909-b5bd-8b0e57a55c39</testCaseGuid>
+</TestCaseEntity>

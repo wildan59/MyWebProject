@@ -17,3 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/Offer Information Page/label_status_offer'))
+

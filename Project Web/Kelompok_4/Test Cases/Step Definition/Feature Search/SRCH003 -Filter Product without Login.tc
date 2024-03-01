@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SRCH003 -Filter Product without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12f77bea-c028-4922-833f-4d1290f80c90</testCaseGuid>
+</TestCaseEntity>

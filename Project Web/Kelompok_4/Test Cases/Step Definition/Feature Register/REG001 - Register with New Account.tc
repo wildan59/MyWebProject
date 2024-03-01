@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG001 - Register with New Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>489958a5-fe16-4469-acf3-38900479b183</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da06c5af-e367-434c-9dab-a2d6d815ca52</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da06c5af-e367-434c-9dab-a2d6d815ca52</id>
+      <masked>false</masked>
+      <name>randomEmail</name>
+   </variable>
+</TestCaseEntity>

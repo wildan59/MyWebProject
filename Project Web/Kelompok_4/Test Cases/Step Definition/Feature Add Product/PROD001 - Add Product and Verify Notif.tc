@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROD001 - Add Product and Verify Notif</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41a04884-e9a9-4ab1-8af8-b1b0202c8b01</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54aae0e5-fd33-40a4-94af-b54b06c04810</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54aae0e5-fd33-40a4-94af-b54b06c04810</id>
+      <masked>false</masked>
+      <name>randomProductName</name>
+   </variable>
+</TestCaseEntity>

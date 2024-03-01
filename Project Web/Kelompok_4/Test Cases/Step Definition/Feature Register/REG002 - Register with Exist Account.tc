@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG002 - Register with Exist Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56226e8d-9421-4caf-86d8-520a2d14c656</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b32059a7-efd7-413e-90eb-96b8b95b597d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b32059a7-efd7-413e-90eb-96b8b95b597d</id>
+      <masked>false</masked>
+      <name>randomEmail</name>
+   </variable>
+</TestCaseEntity>

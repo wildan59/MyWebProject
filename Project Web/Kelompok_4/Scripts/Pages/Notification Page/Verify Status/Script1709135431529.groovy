@@ -17,3 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+getStatus = WebUI.getText(findTestObject('SecondHand Website/Notifications Page/Label Status', [('productName') : productName]))
+

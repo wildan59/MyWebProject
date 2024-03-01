@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 Login (Putri)/00. Verify Page Before Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/00. Verify Page Before Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 Login (Putri)/01. Seller/01. Login With Invalid Password'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/01. Seller/01. Login With Invalid Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 Login (Putri)/04. Verify User Failed Login'), [('expected') : 'Invalid Email or password.'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/04. Verify User Failed Login'), [('expected') : 'Invalid Email or password.'], FailureHandling.STOP_ON_FAILURE)
 
