@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Offer_ProdukDitolak</name>
+   <name>label_status_offer</name>
    <tag></tag>
    <elementGuidId>81908f2f-64bd-418b-a5d9-5fd61b67c48e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

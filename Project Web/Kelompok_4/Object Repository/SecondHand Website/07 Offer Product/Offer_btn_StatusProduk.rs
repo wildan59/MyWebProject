@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Offer_btb_StatusProduk</name>
+   <name>Offer_btn_StatusProduk</name>
    <tag></tag>
    <elementGuidId>04f7d9cf-1a13-48ac-b705-b3f6f210a2d7</elementGuidId>
    <selectorCollection>
