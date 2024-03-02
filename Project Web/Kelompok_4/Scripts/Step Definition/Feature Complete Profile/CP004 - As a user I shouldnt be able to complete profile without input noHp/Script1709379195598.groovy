@@ -37,15 +37,15 @@ WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], Fail
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [('username') : randomUsername], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Address'), [('address') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('city') : 'Bandung'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Phone Number'), [('phoneNumber') : '085212345678'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Address'), [('address') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Upload Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Verify Kota Required'), [('message') : '', ('expected') : 'Please select an item in the list.'], 
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Verify NoHp Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(15)

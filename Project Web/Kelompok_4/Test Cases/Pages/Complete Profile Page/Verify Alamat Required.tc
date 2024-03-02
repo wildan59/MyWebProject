@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Kota Required</name>
+   <name>Verify Alamat Required</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1bcc8cdd-1df1-47fc-98f7-9aa465a022e1</testCaseGuid>
+   <testCaseGuid>254de22c-5bf5-492c-812f-df0f636cf977</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0a19c683-54b8-46fb-8c86-4255726bd43f</variableId>
+      <variableId>d50b4c5c-4fc6-4b97-bdd0-59b8719e77cc</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3e9fb9be-d2bc-4ebb-ab94-8e248825befa</variableId>
+      <variableId>860e5532-4d9e-4d4b-bd56-aa81530fda7d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0a19c683-54b8-46fb-8c86-4255726bd43f</id>
+      <id>d50b4c5c-4fc6-4b97-bdd0-59b8719e77cc</id>
       <masked>false</masked>
       <name>message</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>3e9fb9be-d2bc-4ebb-ab94-8e248825befa</id>
+      <id>860e5532-4d9e-4d4b-bd56-aa81530fda7d</id>
       <masked>false</masked>
       <name>expected</name>
    </variable>
