@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LGB004 - As a user I shouldnt be able to login without input email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e422d581-99ea-470f-bcc0-2db9ebde8251</testCaseGuid>
+</TestCaseEntity>

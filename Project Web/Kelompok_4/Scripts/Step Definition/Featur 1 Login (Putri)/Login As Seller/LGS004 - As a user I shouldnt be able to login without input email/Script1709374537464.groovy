@@ -17,5 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/Filter Kategori'))
+WebUI.callTestCase(findTestCase('Pages/Login/00. Verify Page Before Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/01. Seller/01. Login With Empty Email'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Verify Email Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
+    FailureHandling.STOP_ON_FAILURE)
 
