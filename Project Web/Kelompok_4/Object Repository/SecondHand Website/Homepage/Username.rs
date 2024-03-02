@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = '${username}' or. = '${username}')]</value>
+         <value>//div[(text() = '${username}' or . = '${username}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ad94983b-498b-4696-8888-3580a4e8960a</webElementGuid>
+      <webElementGuid>89c3896c-3350-41db-9fdb-83b402ac22e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fs-5 fw-bold</value>
-      <webElementGuid>6cd1ae65-1830-4bb7-acde-de613a50ec4e</webElementGuid>
+      <webElementGuid>652af931-80a2-4254-a400-215e93e3d2bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>zarabiba</value>
-      <webElementGuid>90cf1fa0-678c-4cc2-91dc-f706d581a729</webElementGuid>
+      <webElementGuid>0f70e127-6bd6-452e-9e92-8f1547b72046</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;nav-user&quot;]/div[@class=&quot;d-flex align-items-center justify-content center flex-column py-2&quot;]/div[@class=&quot;card-body text-center&quot;]/div[@class=&quot;fs-5 fw-bold&quot;]</value>
-      <webElementGuid>5c88db7d-39b1-4095-b645-a3c6afeeb578</webElementGuid>
+      <webElementGuid>6035ff51-c52e-4b8e-89e7-610a80f20669</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/ul/li/a/div/div/div</value>
-      <webElementGuid>d6d2d44b-da8a-4689-b20c-ee4887e76bbe</webElementGuid>
+      <webElementGuid>416e1f2f-03e0-4370-b8c6-f816a07fd7e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Saya'])[2]/following::div[3]</value>
-      <webElementGuid>5e4ff49d-3b89-4a88-945c-e1916cfc7f58</webElementGuid>
+      <webElementGuid>03e98d87-553f-4f9f-82eb-c8f5f66ba462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[3]</value>
-      <webElementGuid>6993ac45-0501-42c2-a802-4a0f6487a6a1</webElementGuid>
+      <webElementGuid>306821b3-37ed-4276-a477-c715a0dc0c3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/preceding::div[1]</value>
-      <webElementGuid>041d148c-7199-4151-982a-8e309822aa9f</webElementGuid>
+      <webElementGuid>b5515a89-4afd-47fa-ae30-036564e1e602</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='zarabiba']/parent::*</value>
-      <webElementGuid>4897e236-e893-42fb-80bd-c8e04f1ab904</webElementGuid>
+      <webElementGuid>19d73a2f-6b74-44b2-8026-1ab98b1e462e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div/div/div</value>
-      <webElementGuid>d6d8c2e7-d6bc-4b92-b0d9-1ce945f645fd</webElementGuid>
+      <webElementGuid>6e762130-16df-48bf-a3df-bc4d3ccb4041</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'zarabiba' or . = 'zarabiba')]</value>
-      <webElementGuid>4a102d32-9bb1-428b-8648-3e70a7153494</webElementGuid>
+      <webElementGuid>0cc48f34-920b-4cd0-83d7-ce0febeba309</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

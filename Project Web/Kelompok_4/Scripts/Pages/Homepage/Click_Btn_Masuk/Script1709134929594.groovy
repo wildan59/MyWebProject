@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/01. Page Utama/btn_Masuk'))
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/Homepage/btn_Masuk'))
 
-WebUI.click(findTestObject('SecondHand Website/01. Page Utama/btn_Masuk'))
+WebUI.click(findTestObject('SecondHand Website/Homepage/btn_Masuk'))
 
