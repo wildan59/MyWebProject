@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/Filter Kategori'))
+message = WebUI.getAttribute(findTestObject('SecondHand Website/Complete Profile/field_address'), 'validationMessage')
+
+WebUI.verifyEqual(message, expected, FailureHandling.STOP_ON_FAILURE)
 

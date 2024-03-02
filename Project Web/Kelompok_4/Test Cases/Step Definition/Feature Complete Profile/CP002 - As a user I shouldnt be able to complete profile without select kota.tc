@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP002 - As a user I shouldnt be able to complete profile without select kota</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8e7f192-ed71-4021-9928-feb5da0555f3</testCaseGuid>
+</TestCaseEntity>

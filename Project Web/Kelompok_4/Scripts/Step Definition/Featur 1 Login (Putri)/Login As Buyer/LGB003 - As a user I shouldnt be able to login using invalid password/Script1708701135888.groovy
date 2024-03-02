@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Pages/Login/00. Verify Page Before Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/02. Buyer/02. Login With Invalid Password'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/02. Buyer/02. Login With Invalid Email'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Login/04. Verify User Failed Login'), [('expected') : 'Invalid Email or password.'], 
     FailureHandling.STOP_ON_FAILURE)

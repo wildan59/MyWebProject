@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP004 - As a user I shouldnt be able to complete profile without input noHp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4f116b0-850f-4577-8fad-f7c39ac8dc5d</testCaseGuid>
+</TestCaseEntity>
