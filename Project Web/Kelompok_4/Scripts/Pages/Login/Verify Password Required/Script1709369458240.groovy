@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-message = WebUI.getAttribute(findTestObject('SecondHand Website/Login/input_field_password'), 'ValidationMessage')
+message = WebUI.getAttribute(findTestObject('SecondHand Website/Login/input_field_password'), 'validationMessage')
 
-WebUI.verifyEqual(message, expected)
+WebUI.verifyEqual(message, expected, FailureHandling.STOP_ON_FAILURE)
 

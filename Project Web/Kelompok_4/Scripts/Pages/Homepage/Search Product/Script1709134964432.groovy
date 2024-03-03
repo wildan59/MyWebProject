@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/01. Page Utama/icon_search'))
+WebUI.setText(findTestObject('SecondHand Website/Homepage/field_search'), Keys.chord('mobil'))
+
+WebUI.sendKeys(findTestObject('SecondHand Website/Homepage/field_search'), Keys.chord(Keys.ENTER))
 
