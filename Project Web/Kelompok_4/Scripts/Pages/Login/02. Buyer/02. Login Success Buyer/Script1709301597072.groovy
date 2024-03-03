@@ -21,18 +21,15 @@ WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/input_field_
 
 WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/input_field_password'))
 
-<<<<<<< HEAD
 WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/btn_Masuk'))
 
 WebUI.setText(findTestObject('SecondHand Website/Login/input_field_email'), GlobalVariable.ValidUser_Buyer)
 
 WebUI.setText(findTestObject('SecondHand Website/Login/input_field_password'), GlobalVariable.ValidPassword_Buyer)
 
-=======
 WebUI.setText(findTestObject('SecondHand Website/Login/input_field_email'), GlobalVariable.ValidUser_Buyer)
 
 WebUI.setText(findTestObject('SecondHand Website/Login/input_field_password'), GlobalVariable.ValidPassword_Buyer)
 
->>>>>>> 09145f3459ccffd0ee8b47a1298099cb711bb860
 WebUI.click(findTestObject('SecondHand Website/Login/btn_Masuk'))
 
