@@ -17,5 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('SecondHand Website/Homepage/label_kategori', [('category') : category]), expected)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/02. Buyer/02. Login Success Buyer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : 'mobil'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Product is Exist'), [('productName') : 'mobil', ('expected') : 'mobil'], 
+    FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SRCH001 - Search Product Without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2f47eac-9f95-42ce-9ba5-b31287462209</testCaseGuid>
+</TestCaseEntity>
