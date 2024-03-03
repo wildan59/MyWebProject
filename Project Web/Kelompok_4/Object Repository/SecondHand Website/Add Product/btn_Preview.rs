@@ -6,12 +6,12 @@
    <elementGuidId>62f2b392-4e61-4005-939f-b95732414e77</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::label[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.btn.btn-outline-primary.w-50.rounded-4.p-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::label[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>8f356825-4789-49b4-a510-eb566af40786</webElementGuid>
+      <webElementGuid>bf5cf5a7-ebf1-4fad-911d-7761c7c0d11e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-primary w-50 rounded-4 p-3</value>
-      <webElementGuid>01748d5f-44a9-42e8-87fd-4b359655a6cf</webElementGuid>
+      <webElementGuid>27ed7633-e690-40fd-a418-7143812e34a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>for</name>
       <type>Main</type>
       <value>product_status_draft</value>
-      <webElementGuid>c51a4742-f7a1-4c35-9fe4-f1fe230fe2ca</webElementGuid>
+      <webElementGuid>12e50c21-7557-41e6-88ae-6195082cba1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Preview</value>
-      <webElementGuid>19f584a2-51c4-4d02-b18a-2fff1f710101</webElementGuid>
+      <webElementGuid>bb02a082-8009-441e-9813-2025de1cbfed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/section[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-11&quot;]/form[1]/div[@class=&quot;mb-4 d-flex gap-5&quot;]/label[@class=&quot;btn btn-outline-primary w-50 rounded-4 p-3&quot;]</value>
-      <webElementGuid>9da57827-0090-4d60-a987-8f2b83d35b20</webElementGuid>
+      <webElementGuid>92224529-67dc-4a98-973e-6a9c5700a11b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::label[1]</value>
-      <webElementGuid>99b84bb0-dbe3-4433-9f0f-f118871a7bd7</webElementGuid>
+      <webElementGuid>61b8fde5-3270-4166-87e7-6ac5d7d6961c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::label[2]</value>
-      <webElementGuid>8183a3ca-dbea-412e-89ee-c0660d4f3cf1</webElementGuid>
+      <webElementGuid>e17b84bb-1cab-4444-bed1-d96c65c44ae1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::label[1]</value>
-      <webElementGuid>b461d6b2-1266-4395-a2a0-5fea74cb1571</webElementGuid>
+      <webElementGuid>4544705e-134e-495b-84e8-41f0c3d87de7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Preview']/parent::*</value>
-      <webElementGuid>6bed6500-bf57-4a32-818f-513abc95acf2</webElementGuid>
+      <webElementGuid>63120d48-9b4d-441f-a7a3-2b779c410816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/label</value>
-      <webElementGuid>970e6040-f510-42a6-9c45-eb8bb3191d76</webElementGuid>
+      <webElementGuid>9a1d8011-c296-4b59-a146-290503f59e00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Preview' or . = 'Preview')]</value>
-      <webElementGuid>87bdb7cf-4eb2-4922-8b8d-69347a06b02f</webElementGuid>
+      <webElementGuid>e66233f8-c330-497e-80d2-cbde6ff54562</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
 WebUI.setText(findTestObject('SecondHand Website/Add Product/input_field_namaProduk'), productName)
 
