@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROD004 - Add Product WIth Empty Product Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c42b7c7a-afbd-4f11-bec2-638d2172749c</testCaseGuid>
+</TestCaseEntity>

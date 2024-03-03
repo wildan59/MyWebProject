@@ -16,6 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/icon_List Produk'))
+WebUI.setText(findTestObject('SecondHand Website/Add Product/input_field_namaProduk'), productName)
+
+WebUI.setText(findTestObject('SecondHand Website/Add Product/input_field_hargaProduk'), productPrice)
+
+WebUI.selectOptionByLabel(findTestObject('SecondHand Website/Add Product/select_Pilih Kategori'), productCategory, false)
+
+WebUI.setText(findTestObject('SecondHand Website/Add Product/input_field_deskripsi'), description)
+
+imgDir = (RunConfiguration.getProjectDir() + '/ImageUpload/product.jpg')
+
+WebUI.uploadFile(findTestObject('SecondHand Website/Add Product/uplaod_image_product'), imgDir)
 

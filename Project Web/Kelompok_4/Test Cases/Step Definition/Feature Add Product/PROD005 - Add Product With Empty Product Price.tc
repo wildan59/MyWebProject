@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROD005 - Add Product With Empty Product Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95412d63-ce5f-4b04-bc69-2723a34c28d2</testCaseGuid>
+</TestCaseEntity>
