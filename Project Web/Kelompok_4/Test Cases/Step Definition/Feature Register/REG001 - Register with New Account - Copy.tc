@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SRCH003 -Filter Product without Login</name>
+   <name>REG001 - Register with New Account - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>12f77bea-c028-4922-833f-4d1290f80c90</testCaseGuid>
+   <testCaseGuid>0749b77b-9be4-4d97-b548-88e14988c86a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>30206e5b-6f0c-4ca1-b5a9-0016e74ad08d</variableId>
+      <variableId>eb691935-0993-4945-9953-c33e42744137</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Hobi'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>30206e5b-6f0c-4ca1-b5a9-0016e74ad08d</id>
+      <id>eb691935-0993-4945-9953-c33e42744137</id>
       <masked>false</masked>
-      <name>category</name>
+      <name>randomEmail</name>
    </variable>
 </TestCaseEntity>

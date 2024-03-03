@@ -22,8 +22,15 @@ WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : 'kelompok4', ('email') : GlobalVariable.ValidUser_Seller
-        , ('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
+String username = 'abcde'
 
-WebUI.callTestCase(findTestCase('Pages/Register/Verify_email_has_already_been_taken'), [:], FailureHandling.STOP_ON_FAILURE)
+String domain = 'yahoo.com'
+
+String randomEmail = ((username + RandomStringUtils.randomAlphabetic(5)) + '@') + domain
+
+WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : '', ('email') : randomEmail, ('password') : 'kelompok4'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Register/Verify Username Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
+    FailureHandling.STOP_ON_FAILURE)
 

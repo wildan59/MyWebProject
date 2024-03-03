@@ -18,12 +18,19 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/00. Verify Page Before Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
+String username = 'abcde'
 
-WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : 'kelompok4', ('email') : GlobalVariable.ValidUser_Seller
-        , ('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
+String randomUsername = RandomStringUtils.randomAlphabetic(5)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Verify_email_has_already_been_taken'), [:], FailureHandling.STOP_ON_FAILURE)
+String domain = 'yahoo.com'
+
+String randomEmail = randomUsername + '@'
+
+WebUI.callTestCase(findTestCase('Pages/Login/01. Seller/01. Login With Invalid Email (not include domain)'), [('randomEmail') : randomEmail], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Verify Email Required'), [('message') : '', ('expected') : ('Please enter a part following \'@\'. \'' + 
+        randomEmail) + '\' is incomplete.'], FailureHandling.STOP_ON_FAILURE)
 

@@ -22,8 +22,30 @@ WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : 'kelompok4', ('email') : GlobalVariable.ValidUser_Seller
+String username = 'abcde'
+
+String domain = 'yahoo.com'
+
+String randomEmail = ((username + RandomStringUtils.randomAlphabetic(5)) + '@') + domain
+
+WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : 'kelompok4', ('email') : randomEmail
         , ('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Verify_email_has_already_been_taken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('secondhand.binaracademy.org')
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : randomEmail], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/click btn masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
 

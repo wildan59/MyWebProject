@@ -21,6 +21,8 @@ WebUI.callTestCase(findTestCase('Pages/Login/00. Verify Page Before Login'), [:]
 
 WebUI.callTestCase(findTestCase('Pages/Login/click btn masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Verify Email Required'), [('message') : '', ('expected') : 'Please fill in this field.'], 
+0 == 0
+
+WebUI.callTestCase(findTestCase('Pages/Login/Verify Email Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
     FailureHandling.STOP_ON_FAILURE)
 

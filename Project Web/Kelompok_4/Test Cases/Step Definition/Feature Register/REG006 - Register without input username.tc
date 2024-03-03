@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SRCH003 -Filter Product without Login</name>
+   <name>REG006 - Register without input username</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>12f77bea-c028-4922-833f-4d1290f80c90</testCaseGuid>
+   <testCaseGuid>f702b6a5-9f8f-4816-b1b3-8d7148536e25</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>30206e5b-6f0c-4ca1-b5a9-0016e74ad08d</variableId>
+      <variableId>0ba5391a-6ce9-4007-bf8f-ccfb725d0d57</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Hobi'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>30206e5b-6f0c-4ca1-b5a9-0016e74ad08d</id>
+      <id>0ba5391a-6ce9-4007-bf8f-ccfb725d0d57</id>
       <masked>false</masked>
-      <name>category</name>
+      <name>randomEmail</name>
    </variable>
 </TestCaseEntity>

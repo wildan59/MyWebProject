@@ -16,14 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+message = WebUI.getAttribute(findTestObject('SecondHand Website/Register/input_password'), 'validationMessage')
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : 'kelompok4', ('email') : GlobalVariable.ValidUser_Seller
-        , ('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Register/Verify_email_has_already_been_taken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyEqual(message, expected, FailureHandling.STOP_ON_FAILURE)
 

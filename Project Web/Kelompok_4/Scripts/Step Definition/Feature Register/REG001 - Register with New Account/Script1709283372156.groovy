@@ -26,7 +26,7 @@ String username = 'abcde'
 
 String domain = 'yahoo.com'
 
-String randomEmail = ((username + RandomStringUtils.randomAlphabetic(5)) + '@') + domain 
+String randomEmail = ((username + RandomStringUtils.randomAlphabetic(5)) + '@') + domain
 
 WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : 'kelompok4', ('email') : randomEmail
         , ('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
