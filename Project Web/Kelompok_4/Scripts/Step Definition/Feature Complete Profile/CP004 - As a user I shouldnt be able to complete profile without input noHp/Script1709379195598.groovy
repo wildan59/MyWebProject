@@ -45,7 +45,7 @@ WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Upload Profile'), [
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Verify NoHp Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Verify NoHp Required'), [('message') : '', ('expected') : 'Please fill in this field.'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(15)
