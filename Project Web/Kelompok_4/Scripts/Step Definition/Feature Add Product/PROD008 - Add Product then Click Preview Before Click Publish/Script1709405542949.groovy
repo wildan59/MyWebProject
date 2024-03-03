@@ -16,6 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/icon_List Produk'))
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/01. Seller/01. Login Success Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Jual'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String product = 'abcde'
+
+String randomProductName = RandomStringUtils.randomAlphabetic(5)
+
+WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage - without Publish'), [('productName') : randomProductName
+        , ('productPrice') : '1000', ('productCategory') : 'Baju', ('description') : 'okesip'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Add Product/Click Button Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
