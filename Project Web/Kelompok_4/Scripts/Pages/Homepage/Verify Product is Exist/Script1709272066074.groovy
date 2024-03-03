@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('SecondHand Website/01. Page Utama/Product Name', [('productName') : productName]), 
-    expected)
+WebUI.verifyElementText(findTestObject('SecondHand Website/Homepage/Product Name', [('productName') : productName]), expected)
 
