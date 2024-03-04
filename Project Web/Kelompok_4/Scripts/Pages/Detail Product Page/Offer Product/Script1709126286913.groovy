@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+<<<<<<< HEAD
 WebUI.verifyElementVisible(findTestObject('SecondHand Website/Detail Product Page/input_harga_tawar'))
 
 WebUI.setText(findTestObject('SecondHand Website/Detail Product Page/input_harga_tawar'), '10000')
+=======
+WebUI.click(findTestObject('SecondHand Website/Detail Product Page/btn_Offer'))
+
+WebUI.getAttribute(findTestObject('SecondHand Website/Detail Product Page/input_harga_tawar'), 'Harga Tawar')
+
+WebUI.setText(findTestObject('SecondHand Website/Detail Product Page/Offer Price'), offerPrice)
+>>>>>>> 0f3483565c1df23306c27d726338b40b9a2e1ed4
 
 WebUI.click(findTestObject('SecondHand Website/Detail Product Page/btn_submit_offer'))
 

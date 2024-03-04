@@ -9,12 +9,20 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+<<<<<<< HEAD
       <variableId>3648f83b-a3d0-466e-9012-98f29008446b</variableId>
+=======
+      <variableId>8d529519-e1aa-4afa-8058-4f11319bd583</variableId>
+>>>>>>> 0f3483565c1df23306c27d726338b40b9a2e1ed4
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+<<<<<<< HEAD
       <id>3648f83b-a3d0-466e-9012-98f29008446b</id>
+=======
+      <id>8d529519-e1aa-4afa-8058-4f11319bd583</id>
+>>>>>>> 0f3483565c1df23306c27d726338b40b9a2e1ed4
       <masked>false</masked>
       <name>productName</name>
    </variable>

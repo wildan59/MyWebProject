@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OFP001 - Offer Product without Login</name>
+   <name>OFP00 - Offer Product with Login then Reject</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>37cff0fc-f7bb-457d-a301-0bf87c648a45</testCaseGuid>
+   <testCaseGuid>6c0e45a7-2ee5-4f84-954b-979511bbbc78</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e0438190-d960-4c3c-8dc2-f6afe5ad850b</variableId>
+      <variableId>10e93ec5-0914-4d04-b143-6c3f03a10760</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e0438190-d960-4c3c-8dc2-f6afe5ad850b</id>
+      <id>10e93ec5-0914-4d04-b143-6c3f03a10760</id>
       <masked>false</masked>
-      <name>productName</name>
+      <name>randomProductName</name>
    </variable>
 </TestCaseEntity>

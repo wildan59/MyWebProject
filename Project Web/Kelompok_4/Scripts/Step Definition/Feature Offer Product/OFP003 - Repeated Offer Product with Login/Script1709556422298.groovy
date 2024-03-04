@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
-WebUI.scrollToElement(findTestObject('SecondHand Website/Homepage/Product Name', [('productName') : productName]), 0)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/Product Name', [('productName') : productName]))
-=======
-WebUI.getAttribute(findTestObject('SecondHand Website/Homepage/Select Product (2)'), productName)
+WebUI.callTestCase(findTestCase('Pages/Login/02. Buyer/02. Login Success Buyer'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/Select Product (2)'))
->>>>>>> 0f3483565c1df23306c27d726338b40b9a2e1ed4
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : 'gMLsx'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Verify Waiting Response Offer'), [:], FailureHandling.STOP_ON_FAILURE)
 
