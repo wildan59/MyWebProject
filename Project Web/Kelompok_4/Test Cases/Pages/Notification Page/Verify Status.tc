@@ -21,7 +21,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a55b1702-cb65-4b09-85b0-575a5671413a</variableId>
+      <variableId>779d002c-270b-427a-b3b6-71413dad8bb8</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -40,7 +40,7 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a55b1702-cb65-4b09-85b0-575a5671413a</id>
+      <id>779d002c-270b-427a-b3b6-71413dad8bb8</id>
       <masked>false</masked>
       <name>getStatus</name>
    </variable>
