@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation errorMassage empty description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0206ff97-43f5-494d-82c4-fe7326f3300d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0922d6e5-9fba-44a6-9771-b463148b4a06</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0922d6e5-9fba-44a6-9771-b463148b4a06</id>
+      <masked>false</masked>
+      <name>descriptionMessage</name>
+   </variable>
+</TestCaseEntity>

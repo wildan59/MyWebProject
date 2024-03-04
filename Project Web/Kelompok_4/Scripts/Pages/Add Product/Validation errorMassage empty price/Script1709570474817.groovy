@@ -16,25 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Login/01. Seller/01. Login Success Seller'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Jual'), [:], FailureHandling.STOP_ON_FAILURE)
-
-String product = 'abcde'
-
-String randomProductName = RandomStringUtils.randomAlphabetic(5)
-
-WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : ''
-        , ('productCategory') : 'Baju', ('description') : 'baju'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Add Product/Validation errorMassage empty price'), [('priceMessage') : 'Price can\'t be blank'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
+WebUI.verifyElementText(findTestObject('SecondHand Website/Add Product/errorMessage_AddProduct/errorMessage_Price cant be blank'), 
+    priceMessage)
 

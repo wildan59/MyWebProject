@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation errorMassage without Select Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>080e788b-c7b6-43bd-99b3-d13b24fc0e50</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ff51564-4629-4b83-8109-f1028ceafd82</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ff51564-4629-4b83-8109-f1028ceafd82</id>
+      <masked>false</masked>
+      <name>categoryMessage</name>
+   </variable>
+</TestCaseEntity>
