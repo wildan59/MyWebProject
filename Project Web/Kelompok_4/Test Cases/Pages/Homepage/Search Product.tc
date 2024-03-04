@@ -11,11 +11,24 @@
       <value></value>
       <variableId>52a34ed6-06aa-4f27-adcb-53a5bed10117</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee335dc6-4149-4c71-add4-de83deccc9c6</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>52a34ed6-06aa-4f27-adcb-53a5bed10117</id>
       <masked>false</masked>
       <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee335dc6-4149-4c71-add4-de83deccc9c6</id>
+      <masked>false</masked>
+      <name>searchKey</name>
    </variable>
 </TestCaseEntity>

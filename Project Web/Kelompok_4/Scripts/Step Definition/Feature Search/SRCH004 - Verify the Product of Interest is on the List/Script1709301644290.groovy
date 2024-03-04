@@ -41,7 +41,7 @@ WebUI.callTestCase(findTestCase('Pages/Login/02. Buyer/02. Login Success Buyer')
 
 WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
