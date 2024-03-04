@@ -16,6 +16,6 @@
       <description></description>
       <id>52a34ed6-06aa-4f27-adcb-53a5bed10117</id>
       <masked>false</masked>
-      <name>produtName</name>
+      <name>productName</name>
    </variable>
 </TestCaseEntity>

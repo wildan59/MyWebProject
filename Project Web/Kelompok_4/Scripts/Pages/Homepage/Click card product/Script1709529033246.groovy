@@ -17,9 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Detail Product Page/input_harga_tawar'))
-
-WebUI.setText(findTestObject('SecondHand Website/Detail Product Page/input_harga_tawar'), '10000')
-
-WebUI.click(findTestObject('SecondHand Website/Detail Product Page/btn_submit_offer'))
+WebUI.click(findTestObject('SecondHand Website/Homepage/card product'))
 

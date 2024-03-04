@@ -10,11 +10,11 @@
          <value>//h5[(text() = '${productName}' or . = '${productName}')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'aAvLM' or . = 'aAvLM')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[(text() = 'aAvLM' or . = 'aAvLM')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>c272dfa6-3b6b-4119-b2c8-037593297199</webElementGuid>
+      <webElementGuid>40b797ff-a6a0-4d74-a4dd-2697a052ba7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-title</value>
-      <webElementGuid>61ca0f9c-631d-4d2a-b588-e5c859375033</webElementGuid>
+      <webElementGuid>aee3ed37-f350-466b-a6f6-ee93c32c1929</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>aAvLM</value>
-      <webElementGuid>81c5b118-d59d-446f-bb1e-be7e0d2964e7</webElementGuid>
+      <webElementGuid>3b9d7fbd-34f6-4e22-9410-a132f554c0dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]/h5[@class=&quot;card-title&quot;]</value>
-      <webElementGuid>d2cdad73-e737-42bd-8675-e1121c766946</webElementGuid>
+      <webElementGuid>57b8b742-8bd2-44c9-bf33-f66cb4e8fab7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='products']/div[2]/a/div/div/h5</value>
-      <webElementGuid>75d21c56-ea88-4097-973e-23a4c2241262</webElementGuid>
+      <webElementGuid>1a00c27b-4798-4bac-8884-edcee58b1532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 50.000'])[1]/following::h5[1]</value>
-      <webElementGuid>21fe30c3-8b44-4a53-b5cd-3206cbd7dc00</webElementGuid>
+      <webElementGuid>f41395ca-8cdb-44a7-99ed-613176641cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalender'])[1]/following::h5[2]</value>
-      <webElementGuid>594e5876-11a0-4606-87ca-a79dfa5c5862</webElementGuid>
+      <webElementGuid>67b95722-0521-45f9-9f22-54a25a88b129</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 10.000'])[1]/preceding::h5[1]</value>
-      <webElementGuid>f4e4df5d-49c7-49f1-b6da-fd3a8061bcfe</webElementGuid>
+      <webElementGuid>d40ffd23-aff3-4e27-8815-3c68d8ebb2ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='dJGzw'])[1]/preceding::h5[2]</value>
-      <webElementGuid>0239ebdf-203d-4ee8-9348-5bd4d487d055</webElementGuid>
+      <webElementGuid>ec4517b4-f95e-49e6-a796-c76c110c7402</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='aAvLM']/parent::*</value>
-      <webElementGuid>eacb25d7-f6f7-483e-a934-a9f2b27d1f95</webElementGuid>
+      <webElementGuid>53b94153-94de-4018-89a2-bbac62d96fd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a/div/div/h5</value>
-      <webElementGuid>520ac527-c753-479b-ad95-d71615c3c2ce</webElementGuid>
+      <webElementGuid>966f2a5e-67d0-441b-994f-446edfa10699</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'aAvLM' or . = 'aAvLM')]</value>
-      <webElementGuid>45050bcc-73ab-4dba-9a10-9c06317a7605</webElementGuid>
+      <webElementGuid>8647b823-09e6-4f91-b284-abf361589cb5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

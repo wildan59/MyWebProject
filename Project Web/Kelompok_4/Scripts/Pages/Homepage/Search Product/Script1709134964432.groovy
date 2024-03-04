@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('SecondHand Website/Homepage/field_search', [('productName') : produtName]), Keys.chord(productName))
+WebUI.setText(findTestObject('SecondHand Website/Homepage/field_search', [('productName') : productName]), Keys.chord(productName))
 
 WebUI.sendKeys(findTestObject('SecondHand Website/Homepage/field_search'), Keys.chord(Keys.ENTER))
 
