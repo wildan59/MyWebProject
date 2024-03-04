@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFP009 - Offer Product with Login Not Complete Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa4ce682-0500-4548-9745-8b8c9c9132be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23252ad1-6b57-4bb9-a665-240127228380</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23252ad1-6b57-4bb9-a665-240127228380</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>
