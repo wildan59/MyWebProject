@@ -16,9 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('mobil') : 'mobil'], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/Detail Product Page/Verify Error Message'))
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Product is Exist'), [('productName') : 'mobil', ('expected') : 'mobil'], 
-    FailureHandling.STOP_ON_FAILURE)
+errorText = WebUI.getText(findTestObject('SecondHand Website/Detail Product Page/Verify Error Message'))
 
+KeywordUtil.logInfo('Error Text:' + errorText)
+
+WebUI.verifyMatch(errorText, expected, false)

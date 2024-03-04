@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Select Product</name>
+   <name>OFP004 - Repeated Offer Product without Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>46c7ac99-3d2d-4ec0-a83b-9fc8f2cf66d0</testCaseGuid>
+   <testCaseGuid>2d2a1cbb-af37-49c4-835e-653dc8c71e38</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8d529519-e1aa-4afa-8058-4f11319bd583</variableId>
+      <variableId>d95792dd-0c68-415a-87a7-1899d4533c1d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8d529519-e1aa-4afa-8058-4f11319bd583</id>
+      <id>d95792dd-0c68-415a-87a7-1899d4533c1d</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>

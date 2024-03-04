@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('SecondHand Website/Detail Product Page/btn_Offer'))
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getAttribute(findTestObject('SecondHand Website/Detail Product Page/input_harga_tawar'), 'Harga Tawar')
+WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : 'gMLsx'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('SecondHand Website/Detail Product Page/Offer Price'), offerPrice)
-
-WebUI.click(findTestObject('SecondHand Website/Detail Product Page/btn_submit_offer'))
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Verify Waiting Response Offer'), [:], FailureHandling.STOP_ON_FAILURE)
 
