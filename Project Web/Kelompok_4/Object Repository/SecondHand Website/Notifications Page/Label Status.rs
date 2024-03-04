@@ -6,12 +6,16 @@
    <elementGuidId>98caabed-d08c-45a5-832c-c5ee1227e84f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Berhasil di terbitkan' or . = 'Berhasil di terbitkan')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.notification-subject.fs-6.text-black-50</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[text()='${productName}'][1]</value>
+         <value>//section//div[text()='${productName}']//preceding-sibling::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c1e7579d-04a2-4b2f-be7c-4eddc8ff750a</webElementGuid>
+      <webElementGuid>faf65940-eecd-49e0-8e74-d5b0a130f775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>notification-subject fs-6 text-black-50</value>
-      <webElementGuid>ff088f29-48cb-4248-9541-8842d7aed196</webElementGuid>
+      <webElementGuid>659bf2fa-c51f-4b5a-a938-47b0238701b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Berhasil di terbitkan</value>
-      <webElementGuid>0ca9952c-797a-4998-84be-7db6301bbad4</webElementGuid>
+      <webElementGuid>474e3a34-2581-4130-b4b8-750d1a8dbed8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown me-0 me-lg-2 fs-5 d-none d-xl-block position-relative&quot;]/ul[@class=&quot;dropdown-menu notification-dropdown-menu px-4 show&quot;]/li[1]/a[@class=&quot;notification my-4 px-2 position-relative&quot;]/div[@class=&quot;notification-body me-4&quot;]/div[@class=&quot;notification-subject fs-6 text-black-50&quot;]</value>
-      <webElementGuid>760965b4-463a-4375-9363-977efddb2679</webElementGuid>
+      <webElementGuid>876d2a9f-b9b0-42b0-a374-e94d7fc9de05</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[2]/following::div[2]</value>
-      <webElementGuid>32efc805-6066-42e6-8023-1ee1bcc24101</webElementGuid>
+      <webElementGuid>986afa6f-a573-4b2a-8ce8-848226e0d900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[1]/following::div[2]</value>
-      <webElementGuid>15e8728f-1f94-4f0f-80a6-192424f56165</webElementGuid>
+      <webElementGuid>6f46baf1-10aa-4f0f-b411-1974f9d0bd40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='zfvsfgasdgGARp 1.244'])[1]/preceding::div[1]</value>
-      <webElementGuid>2024710f-a6e5-4f44-be54-8553835b936d</webElementGuid>
+      <webElementGuid>b1066573-8d10-469d-b8e2-b58111ffa5f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[3]/preceding::div[3]</value>
-      <webElementGuid>39e51ecf-fff0-4073-af86-6d9935a27286</webElementGuid>
+      <webElementGuid>bafee918-37d9-4d31-ab46-2a43cf500ab1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/ul/li/div/div</value>
-      <webElementGuid>0eef7919-89c3-451e-abaf-d9466d51ea9e</webElementGuid>
+      <webElementGuid>787b69c4-46f6-404f-a7dd-298bd84265dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Berhasil di terbitkan' or . = 'Berhasil di terbitkan')]</value>
-      <webElementGuid>eafa9744-1a37-4605-87c3-8a844127d87c</webElementGuid>
+      <webElementGuid>4787b13e-6657-4337-8366-fb3c86ded702</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
