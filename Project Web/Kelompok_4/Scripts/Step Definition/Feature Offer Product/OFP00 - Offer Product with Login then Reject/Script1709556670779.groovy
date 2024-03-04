@@ -19,8 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-<<<<<<< HEAD:Project Web/Kelompok_4/Scripts/Step Definition/Feature Offer Product/OFP002 - Offer Product with Login then Reject/Script1709265264419.groovy
-=======
+
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Login/01. Seller/01. Login Success Seller'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -46,4 +45,3 @@ WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], Fail
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
->>>>>>> 0f3483565c1df23306c27d726338b40b9a2e1ed4:Project Web/Kelompok_4/Scripts/Step Definition/Feature Offer Product/OFP00 - Offer Product with Login then Reject/Script1709556670779.groovy

@@ -45,7 +45,7 @@ WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey')
 
 WebUI.delay(5)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>REG001 - Register with New Account - Copy</name>
+   <name>verify element username</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0749b77b-9be4-4d97-b548-88e14988c86a</testCaseGuid>
+   <testCaseGuid>b86c4b7d-7f11-4bdd-8048-f92ae6129a3f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>eb691935-0993-4945-9953-c33e42744137</variableId>
+      <variableId>6a64b985-5c5c-4487-85c2-822b858d228e</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>eb691935-0993-4945-9953-c33e42744137</id>
+      <id>6a64b985-5c5c-4487-85c2-822b858d228e</id>
       <masked>false</masked>
-      <name>randomEmail</name>
+      <name>username</name>
    </variable>
 </TestCaseEntity>

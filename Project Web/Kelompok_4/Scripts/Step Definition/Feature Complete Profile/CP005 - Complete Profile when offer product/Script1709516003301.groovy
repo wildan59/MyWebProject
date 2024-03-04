@@ -37,15 +37,17 @@ WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], Fail
 
 String randomProductName = 'mobil'
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Click button offer'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String randomNewUsername = RandomStringUtils.randomAlphabetic(5)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Username'), [('username') : randomNewUsername], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('city') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
 
@@ -58,4 +60,8 @@ WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Upload Profile'), [
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Button Back'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Username'), [('username') : randomNewUsername], FailureHandling.STOP_ON_FAILURE)
 

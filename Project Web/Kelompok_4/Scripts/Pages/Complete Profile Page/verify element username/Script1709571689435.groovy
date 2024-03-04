@@ -17,15 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/input_field_email'))
-
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/input_field_password'))
-
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/btn_Masuk'))
-
-WebUI.setText(findTestObject('SecondHand Website/Login/input_field_email'), GlobalVariable.ValidUser_Buyer)
-
-WebUI.setText(findTestObject('SecondHand Website/Login/input_field_password'), GlobalVariable.ValidPassword_Buyer)
-
-WebUI.click(findTestObject('SecondHand Website/Login/btn_Masuk'))
+username = WebUI.verifyElementVisible(findTestObject('SecondHand Website/Complete Profile/input_Nama_username'))
 

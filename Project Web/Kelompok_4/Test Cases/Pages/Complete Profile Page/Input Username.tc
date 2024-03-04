@@ -16,6 +16,6 @@
       <description></description>
       <id>fe8eecc6-7fb0-476e-88a0-eb6497289cdd</id>
       <masked>false</masked>
-      <name>new_username</name>
+      <name>username</name>
    </variable>
 </TestCaseEntity>

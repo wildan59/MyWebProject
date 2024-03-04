@@ -18,40 +18,29 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+String randomProductName = 'mobil'
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : randomProductName], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [('offerPrice') : '10000'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Verify User Sign In or Sign Up'), [('expected') : 'You need to sign in or sign up before continuing.'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 
 String username = 'abcde'
 
-String randomUsername = RandomStringUtils.randomAlphabetic(5)
-
 String domain = 'yahoo.com'
 
-String randomEmail = (randomUsername + '@') + domain
+String randomEmail = ((username + RandomStringUtils.randomAlphabetic(5)) + '@') + domain
 
-WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : randomUsername, ('email') : randomEmail
+WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : 'kelompok4', ('email') : randomEmail
         , ('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Jual'), [:], FailureHandling.STOP_ON_FAILURE)
-
-String randomNewUsername = RandomStringUtils.randomAlphabetic(5)
-
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Username'), [('username') : randomNewUsername], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('city') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Address'), [('address') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Phone Number'), [('phoneNumber') : '081987861'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Upload Profile'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Username'), [('username') : randomNewUsername], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Username'), [('username') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
 

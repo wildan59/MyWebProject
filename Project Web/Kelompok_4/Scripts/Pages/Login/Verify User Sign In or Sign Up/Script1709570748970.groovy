@@ -16,16 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/input_field_email'))
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/label_error_message'))
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/input_field_password'))
+errorText = WebUI.getText(findTestObject('SecondHand Website/Login/label_error_message'))
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/btn_Masuk'))
+KeywordUtil.logInfo('Error Text:' + errorText)
 
-WebUI.setText(findTestObject('SecondHand Website/Login/input_field_email'), GlobalVariable.ValidUser_Buyer)
-
-WebUI.setText(findTestObject('SecondHand Website/Login/input_field_password'), GlobalVariable.ValidPassword_Buyer)
-
-WebUI.click(findTestObject('SecondHand Website/Login/btn_Masuk'))
+WebUI.verifyMatch(errorText, expected, false)
 
