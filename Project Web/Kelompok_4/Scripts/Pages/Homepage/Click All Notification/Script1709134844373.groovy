@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('SecondHand Website/Homepage/icon_notifikasi'))
+
+WebUI.scrollToElement(findTestObject('SecondHand Website/Notifications Page/link_semua_notifikasi'), 0)
+
+WebUI.click(findTestObject('SecondHand Website/Notifications Page/link_semua_notifikasi'))
+
