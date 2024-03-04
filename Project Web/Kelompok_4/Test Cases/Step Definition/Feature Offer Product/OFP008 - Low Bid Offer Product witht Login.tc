@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFP008 - Low Bid Offer Product witht Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce5ce024-5cd1-45e7-a895-7fec471c62b7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d59a0de-4174-498a-818e-73de529aee88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0d59a0de-4174-498a-818e-73de529aee88</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>
