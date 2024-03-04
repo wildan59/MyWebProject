@@ -17,5 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/icon_Profile'))
+WebUI.callTestCase(findTestCase('Step Definition/Feature Accept Offer/ACPT001 - Accept Offer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Info Offer Product/Click Status Button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Info Offer Product/Update Status Reject Order'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Info Offer Product/Click Submit Button'), [:], FailureHandling.STOP_ON_FAILURE)
 

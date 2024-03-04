@@ -17,5 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/icon_Profile'))
+WebUI.callTestCase(findTestCase('Step Definition/Featur 1 Login (Putri)/Login As Seller/LGS001 - As a user i should be able to login with credential'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [('username') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
