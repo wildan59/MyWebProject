@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation errorMassage empty price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5af533c-956d-40eb-9166-b0468b471c55</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>afd042dc-8559-405f-9cc2-c893f2fe462d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>afd042dc-8559-405f-9cc2-c893f2fe462d</id>
+      <masked>false</masked>
+      <name>priceMessage</name>
+   </variable>
+</TestCaseEntity>
