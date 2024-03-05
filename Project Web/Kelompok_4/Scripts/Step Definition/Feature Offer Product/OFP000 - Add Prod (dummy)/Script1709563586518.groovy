@@ -34,7 +34,6 @@ String randomProductName = RandomStringUtils.randomAlphabetic(5)
 WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : '100000'
         , ('productCategory') : 'Baju', ('description') : 'BajuXX'], FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< HEAD:Project Web/Kelompok_4/Scripts/Step Definition/Feature Offer Product/OFP00 - Offer Product with Login then Reject/Script1709556670779.groovy
 WebUI.callTestCase(findTestCase('Pages/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -45,9 +44,3 @@ WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], Fail
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< HEAD:Project Web/Kelompok_4/Scripts/Step Definition/Feature Offer Product/OFP00 - Offer Product with Login then Reject/Script1709556670779.groovy
-=======
->>>>>>> 0f3483565c1df23306c27d726338b40b9a2e1ed4:Project Web/Kelompok_4/Scripts/Step Definition/Feature Offer Product/OFP00 - Offer Product with Login then Reject/Script1709556670779.groovy
-=======
->>>>>>> 0ac68a5a3c8a91359315f8a1373fe40328361797:Project Web/Kelompok_4/Scripts/Step Definition/Feature Offer Product/OFP000 - Add Prod (dummy)/Script1709563586518.groovy
->>>>>>> master:Project Web/Kelompok_4/Scripts/Step Definition/Feature Offer Product/OFP000 - Add Prod (dummy)/Script1709563586518.groovy
