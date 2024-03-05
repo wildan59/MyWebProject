@@ -25,5 +25,7 @@ WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [:], FailureHa
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : 'gMLsx'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [('offerPrice') : '1'], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Verify Waiting Response Offer'), [:], FailureHandling.STOP_ON_FAILURE)
 

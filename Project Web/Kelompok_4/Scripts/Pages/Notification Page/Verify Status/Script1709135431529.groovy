@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 getStatus = WebUI.getText(findTestObject('SecondHand Website/Notifications Page/Label Status', [('productName') : productName]))
 
+WebUI.verifyMatch(getStatus, status, false)
+

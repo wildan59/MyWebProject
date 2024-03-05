@@ -30,6 +30,11 @@ String product = 'abcde'
 
 String randomProductName = RandomStringUtils.randomAlphabetic(5)
 
-WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : ''
+WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : '', ('productPrice') : '10000'
         , ('productCategory') : 'Baju', ('description') : 'baju'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Add Product/Validation errorMassage empty name'), [('messageName') : 'Name can\'t be blank'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
 

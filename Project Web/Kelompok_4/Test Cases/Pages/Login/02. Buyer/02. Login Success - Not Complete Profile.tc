@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verify login with valid credential</description>
+   <name>02. Login Success - Not Complete Profile</name>
+   <tag>login positive</tag>
+   <comment></comment>
+   <testCaseGuid>26c3028b-aa9d-4c36-b8be-f42d21408a6c</testCaseGuid>
+</TestCaseEntity>
