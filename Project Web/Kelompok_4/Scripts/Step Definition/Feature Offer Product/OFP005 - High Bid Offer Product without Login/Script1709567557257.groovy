@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Step Definition/Feature Offer Product/OFP000 - 
 
 WebUI.callTestCase(findTestCase('Pages/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Select Product (2)'), [('productName') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [('offerPrice') : '1000000000'], FailureHandling.STOP_ON_FAILURE)
 

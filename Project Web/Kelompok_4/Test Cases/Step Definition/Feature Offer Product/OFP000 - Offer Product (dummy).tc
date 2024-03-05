@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFP000 - Offer Product (dummy)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20379b9d-1ffa-4ba9-9bff-ff50174e7ef6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>661be36d-b47d-44a4-88f0-8e16886a42d4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>661be36d-b47d-44a4-88f0-8e16886a42d4</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>
