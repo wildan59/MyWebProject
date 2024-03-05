@@ -1,0 +1,14 @@
+{
+<<<<<<< HEAD
+  "keywordFileContentHash": "D8E4C69862BD034DC73B30265BE41173",
+=======
+  "keywordFileContentHash": "57D95BE534686F68B586D00B550E4F09",
+>>>>>>> master
+  "keywordClasses": [
+    {
+      "name": "Script1709134975550",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

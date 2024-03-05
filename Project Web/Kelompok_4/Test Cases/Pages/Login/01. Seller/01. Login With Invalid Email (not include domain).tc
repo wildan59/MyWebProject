@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user shouldn't be able to login using invalid email credential</description>
+   <name>01. Login With Invalid Email (not include domain)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>944ea046-45e8-4f24-8cc9-d2279354b362</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85d1af69-6e69-47ec-a9e2-6f8d60866ecb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85d1af69-6e69-47ec-a9e2-6f8d60866ecb</id>
+      <masked>false</masked>
+      <name>randomEmail</name>
+   </variable>
+</TestCaseEntity>

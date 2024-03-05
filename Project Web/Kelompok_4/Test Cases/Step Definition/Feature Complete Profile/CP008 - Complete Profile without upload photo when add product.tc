@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP008 - Complete Profile without upload photo when add product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd54b95e-4521-4f00-9b17-bc1b5aef10d7</testCaseGuid>
+</TestCaseEntity>
