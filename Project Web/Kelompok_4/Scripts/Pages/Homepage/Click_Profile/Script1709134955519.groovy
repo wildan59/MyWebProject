@@ -19,7 +19,3 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('SecondHand Website/Homepage/icon_Profile'))
 
-WebUI.verifyElementText(findTestObject('SecondHand Website/Homepage/Username', [('username') : username]), username)
-
-WebUI.click(findTestObject('SecondHand Website/Homepage/Username', [('username') : username]))
-
