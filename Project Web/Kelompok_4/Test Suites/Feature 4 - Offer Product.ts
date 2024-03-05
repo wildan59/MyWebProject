@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Feature 4 - Offer Product</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5b02bb7f-fd6d-4f94-b298-4e98f115786d</testSuiteGuid>
+   <testCaseLink>
+      <guid>deceb038-49b1-4c75-a4c5-ad30d31a6c2a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP001 - Offer Product without Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0438190-d960-4c3c-8dc2-f6afe5ad850b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>698f87ea-e6c8-466f-81b5-da2cca0533d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP002 - Offer Product with Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3d44b17-b6e4-4e38-8bed-b9c67085a1ac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40f4c5af-69c6-4b30-ae3b-cdd3832bbe4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP003 - Repeated Offer Product with Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0afb88ac-cf00-4762-bb25-6c677d577489</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d434460b-7187-4939-86f0-20978532ce3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP004 - Repeated Offer Product without Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d95792dd-0c68-415a-87a7-1899d4533c1d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c3945152-1840-44a0-97df-c748a2db6b85</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP005 - High Bid Offer Product without Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>45daad47-fe9e-4415-b06d-8864a8fce003</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c289176-106b-4a14-a3f1-562b7dd65e7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP006 - High Bid Offer Product with Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3b6814ed-8e8b-4ed2-8228-6a2b458bb506</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>face5699-3fdc-43b0-9611-03fcb2a0b25e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP007 - Low Bid Offer Product without Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cfec8397-2011-48e0-8f42-08480726ad95</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>580facf6-9e2e-4035-8047-300a0e033640</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP008 - Low Bid Offer Product witht Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d59a0de-4174-498a-818e-73de529aee88</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abd5cb46-97f2-4c81-8382-514000cc6a5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP009 - Offer Product with Login Not Complete Profile</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23252ad1-6b57-4bb9-a665-240127228380</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
