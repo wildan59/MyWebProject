@@ -35,9 +35,11 @@ WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username'
 
 WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [('username') : randomUsername], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('city') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click Username'), [('username') : randomUsername], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('city') : 'Bandung'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Address'), [('address') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
 
@@ -47,5 +49,7 @@ WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Upload Profile'), [
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(15)
+WebUI.delay(5)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Username'), [('username') : randomUsername ], FailureHandling.STOP_ON_FAILURE)
 

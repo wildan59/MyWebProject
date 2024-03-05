@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG006 - Register without input username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f702b6a5-9f8f-4816-b1b3-8d7148536e25</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ba5391a-6ce9-4007-bf8f-ccfb725d0d57</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ba5391a-6ce9-4007-bf8f-ccfb725d0d57</id>
+      <masked>false</masked>
+      <name>randomEmail</name>
+   </variable>
+</TestCaseEntity>

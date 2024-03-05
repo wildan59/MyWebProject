@@ -4,17 +4,17 @@
    <name>Select Product</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>46c7ac99-3d2d-4ec0-a83b-9fc8f2cf66d0</testCaseGuid>
+   <testCaseGuid>68dcbbab-c6ba-465e-968c-18ce29e024a5</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8d529519-e1aa-4afa-8058-4f11319bd583</variableId>
+      <variableId>f8bc5f86-3b27-459e-a1ad-d229200e9c9a</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8d529519-e1aa-4afa-8058-4f11319bd583</id>
+      <id>f8bc5f86-3b27-459e-a1ad-d229200e9c9a</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>

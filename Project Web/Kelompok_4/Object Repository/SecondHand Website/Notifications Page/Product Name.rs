@@ -6,16 +6,16 @@
    <elementGuidId>5e5a688e-41a7-43a6-8bf8-82bf796e8ace</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'zfvsfgasdgGARp 1.244' or . = 'zfvsfgasdgGARp 1.244')]</value>
+         <key>XPATH</key>
+         <value>//div[text()='${productName}']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.notification-body.fs-5</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[text()='${productName}'][1]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'zfvsfgasdgGARp 1.244' or . = 'zfvsfgasdgGARp 1.244')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d34d4b77-d902-41d4-b16c-c0a162604905</webElementGuid>
+      <webElementGuid>77b5c663-05e2-40d0-abb6-45ff4e3d8c35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>notification-body fs-5</value>
-      <webElementGuid>e871f907-3c5a-4d64-bf3d-ca41579b244d</webElementGuid>
+      <webElementGuid>8eb5ed2c-a4cb-456e-855d-4b23036a5344</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>zfvsfgasdgGARp 1.244</value>
-      <webElementGuid>43dd8a47-3d69-4c4f-a8cd-1fc800083585</webElementGuid>
+      <webElementGuid>bf759f0a-9586-4851-86ed-c5b325639929</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown me-0 me-lg-2 fs-5 d-none d-xl-block position-relative&quot;]/ul[@class=&quot;dropdown-menu notification-dropdown-menu px-4 show&quot;]/li[1]/a[@class=&quot;notification my-4 px-2 position-relative&quot;]/div[@class=&quot;notification-body me-4&quot;]/div[@class=&quot;notification-body fs-5&quot;]</value>
-      <webElementGuid>53adbdb6-897e-48a8-b01d-77df42672cf8</webElementGuid>
+      <webElementGuid>d574b1b1-8c8f-4330-aca9-70ddc58cd1b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div/div[2]</value>
-      <webElementGuid>11f6566f-481f-4f05-83eb-0f0d9f7f2def</webElementGuid>
+      <webElementGuid>8a3e1d97-b25b-4192-b39d-1173c0684004</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil di terbitkan'])[1]/following::div[1]</value>
-      <webElementGuid>f99f6527-12c0-4874-82d7-231aa9cd9019</webElementGuid>
+      <webElementGuid>9d837d71-da28-4ae3-8050-874c5407b147</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[2]/following::div[3]</value>
-      <webElementGuid>500bbf64-40c8-45c4-891f-1f4a704e4efc</webElementGuid>
+      <webElementGuid>9edf7c77-1ce7-49b7-8218-b36d27a7e551</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New alerts'])[3]/preceding::div[2]</value>
-      <webElementGuid>d70ef84a-39a9-4993-8160-87f173753632</webElementGuid>
+      <webElementGuid>f88cd634-da82-459c-9da9-bdf59aa71551</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil di terbitkan'])[2]/preceding::div[2]</value>
-      <webElementGuid>96d19881-8da5-4f51-b3bc-dc461c0046be</webElementGuid>
+      <webElementGuid>5051132c-ccdd-4b12-8810-219317729710</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='zfvsfgasdgGA']/parent::*</value>
-      <webElementGuid>40b9d7ed-d622-40f3-b63f-b5883e7ef58c</webElementGuid>
+      <webElementGuid>e0e526b2-e73e-442f-a666-8cfb00360dbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]</value>
-      <webElementGuid>e36891a5-8c8c-4b96-a681-b74733bee790</webElementGuid>
+      <webElementGuid>f8d777bb-6f3e-4c24-a22e-12c012b22892</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'zfvsfgasdgGARp 1.244' or . = 'zfvsfgasdgGARp 1.244')]</value>
-      <webElementGuid>1f6d9c7a-321b-4b27-8835-d1686bc38491</webElementGuid>
+      <webElementGuid>85103db2-ef75-4887-afd3-b87b41734090</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

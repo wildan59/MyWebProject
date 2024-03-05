@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG008 - Register when add product without login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9d6962a-f6b5-4f96-bda8-cf0369a09c91</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0bb1649-d0f9-4664-bf4f-ded01bb2a598</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0bb1649-d0f9-4664-bf4f-ded01bb2a598</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>

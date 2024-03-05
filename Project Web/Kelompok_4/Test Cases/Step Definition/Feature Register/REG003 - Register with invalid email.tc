@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG003 - Register with invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>681ed9df-50c2-4840-8cfa-9898f040e580</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f601fa56-b174-482b-bebf-a82812fb6e5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f601fa56-b174-482b-bebf-a82812fb6e5e</id>
+      <masked>false</masked>
+      <name>randomEmail</name>
+   </variable>
+</TestCaseEntity>

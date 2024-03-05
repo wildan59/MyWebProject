@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG007 - Register when offer product without login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0749b77b-9be4-4d97-b548-88e14988c86a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb691935-0993-4945-9953-c33e42744137</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb691935-0993-4945-9953-c33e42744137</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>
