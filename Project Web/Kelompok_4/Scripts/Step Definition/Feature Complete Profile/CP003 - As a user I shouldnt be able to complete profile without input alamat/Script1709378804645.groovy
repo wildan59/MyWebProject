@@ -35,7 +35,9 @@ WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username'
 
 WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [('username') : randomUsername], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click Username'), [('username') : randomUsername], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('city') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
 

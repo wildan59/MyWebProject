@@ -22,10 +22,38 @@ WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String randomusername = RandomStringUtils.randomAlphabetic(5)
+String username = 'abcde'
 
-WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : randomusername, ('email') : GlobalVariable.ValidUser_Seller
+String randomUsername = RandomStringUtils.randomAlphabetic(5)
+
+String domain = 'yahoo.com'
+
+String randomEmail = (randomUsername + '@') + domain
+
+WebUI.callTestCase(findTestCase('Pages/Register/Register Account'), [('username') : randomUsername, ('email') : randomEmail
         , ('password') : 'kelompok4'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Verify_email_has_already_been_taken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click Username'), [('username') : randomUsername], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('city') : 'Bandung'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Address'), [('address') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Phone Number'), [('phoneNumber') : '081987861'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Jual'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Upload Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -43,12 +43,27 @@ WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Select City'), [('c
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Address'), [('address') : 'Jakarta'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Input Phone Number'), [('phoneNumber') : '081987861'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+String randomProductName = 'mobil'
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : randomProductName], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [('offerPrice') : '100000'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Upload Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Click Save'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Complete Profile Page/Verify NoHp Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(15)
+WebUI.delay(7)
 

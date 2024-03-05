@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4dac9560-a08c-41f4-bfff-e89fc287fd36</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>999f59e6-e3f5-47e5-bf28-27fc9e30a702</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>999f59e6-e3f5-47e5-bf28-27fc9e30a702</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
