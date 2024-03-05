@@ -17,12 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.getAttribute(findTestObject('SecondHand Website/Homepage/Select Product (2)'), productName)
 
-WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Select Product (2)'), [('productName') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [('offerPrice') : '1'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Verify Error Message'), [('errorText') : ' You need to sign in or sign up before continuing.'
-        , ('expected') : 'You need to sign in or sign up before continuing.'], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SecondHand Website/Homepage/Select Product (2)'))
 
