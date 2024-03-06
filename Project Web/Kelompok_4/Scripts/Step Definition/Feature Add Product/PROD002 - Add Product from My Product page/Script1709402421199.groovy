@@ -32,7 +32,7 @@ String product = 'abcde'
 
 String randomProductName = RandomStringUtils.randomAlphabetic(5)
 
-WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : '1000'
+WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : '100000'
         , ('productCategory') : 'Baju', ('description') : 'baju'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Red Dot Visible'), [:], FailureHandling.STOP_ON_FAILURE)

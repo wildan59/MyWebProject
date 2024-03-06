@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : 'mobil'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product - SRCH01-02'), [('searchKey') : 'mobil'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Product is Exist'), [('productName') : 'mobil', ('expected') : 'mobil'], 
     FailureHandling.STOP_ON_FAILURE)

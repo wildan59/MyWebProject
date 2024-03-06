@@ -6,12 +6,12 @@
    <elementGuidId>362e6945-8998-4bb5-8d64-e6c8c8b132f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-link.text-decoration-none</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li[20]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-link.text-decoration-none</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

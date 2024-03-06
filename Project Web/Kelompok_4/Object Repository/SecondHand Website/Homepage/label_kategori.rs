@@ -6,15 +6,19 @@
    <elementGuidId>23ad9844-b900-4e10-b013-0d15fda8fe2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[(text() = '${category}')])[1]</value>
+         <key>BASIC</key>
+         <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]/p[@class=&quot;card-text text-black-50 text-small&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>p.card-text.text-black-50.text-small</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[(text() = '${category}')])[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>2a1ac5ea-0ce5-4938-88d7-61029df2fe6e</webElementGuid>
+      <webElementGuid>7de81d12-1728-4378-81cb-891017970dbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>card-text text-black-50 text-small</value>
-      <webElementGuid>913e789a-14db-46ef-810e-99f2b472835f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Hobi</value>
-      <webElementGuid>4275cb26-3c86-4aed-b419-ae0815e70175</webElementGuid>
+      <webElementGuid>5dccf7be-ba6a-4402-8bf6-af5540405d9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hobi</value>
+      <webElementGuid>6015577b-970a-4c34-bc47-1fa079c3dada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]/p[@class=&quot;card-text text-black-50 text-small&quot;]</value>
-      <webElementGuid>873c6892-4e08-48d9-a0dc-6d2a1527e276</webElementGuid>
+      <webElementGuid>220760a1-b3c5-4cc4-8345-5b0be5468dbb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='products']/div/a/div/div/p</value>
-      <webElementGuid>1ae6e08a-61a4-491b-954a-d369b03ed81e</webElementGuid>
+      <webElementGuid>84d81ea3-92f8-4d85-a09c-07b66343a05d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalender'])[1]/following::p[1]</value>
-      <webElementGuid>0d81c1d8-e6b7-4a8b-947b-d93215200825</webElementGuid>
+      <webElementGuid>e1312190-fae3-4891-a46b-3cae30649019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 50.000'])[1]/preceding::p[1]</value>
-      <webElementGuid>372b0b5a-b1b3-4d28-8cad-cac27fc79cbe</webElementGuid>
+      <webElementGuid>10bd3036-f32a-46e4-9f5a-9f71802a1741</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='dJGzw'])[1]/preceding::p[1]</value>
-      <webElementGuid>1c0f5d18-bb11-42e0-b33d-24729fa40be8</webElementGuid>
+      <webElementGuid>9d1369e7-77d0-46f5-bcf4-1b90706202c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>eef3bf80-3b6e-4d09-a3dc-1cb10c8fb740</webElementGuid>
+      <webElementGuid>704f4197-7fdb-4aec-a1cc-4fbb1bf5f7c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Hobi' or . = 'Hobi')]</value>
-      <webElementGuid>95239c1b-46e0-4668-86fd-709aa1971880</webElementGuid>
+      <webElementGuid>954587fd-ce1b-4e96-b90a-3d4ce7405745</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Search Product</name>
+   <name>Select Product - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>abad96f9-67d2-40b0-9743-d1cba14a00c5</testCaseGuid>
+   <testCaseGuid>af1c08ed-995b-43e9-b950-e07c6ffd8a38</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fc18becc-957b-4cfd-8148-7b8ab0961c16</variableId>
+      <variableId>c7c1f3ba-1662-46e4-afe9-5e2aa72cf71d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fc18becc-957b-4cfd-8148-7b8ab0961c16</id>
+      <id>c7c1f3ba-1662-46e4-afe9-5e2aa72cf71d</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>
