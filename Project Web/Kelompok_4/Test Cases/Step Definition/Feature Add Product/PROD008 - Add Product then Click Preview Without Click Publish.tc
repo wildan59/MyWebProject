@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PROD008 - Add Product then Click Preview Before Click Publish</name>
+   <name>PROD008 - Add Product then Click Preview Without Click Publish</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a5a3ff73-5f1b-4d77-9b97-ed2ac56498da</testCaseGuid>
