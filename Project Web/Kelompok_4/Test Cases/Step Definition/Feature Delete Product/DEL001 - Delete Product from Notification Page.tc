@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Select Product</name>
+   <name>DEL001 - Delete Product from Notification Page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9c1bd0e2-8998-4b62-85dd-fef711ca1821</testCaseGuid>
+   <testCaseGuid>66e21cd9-215e-4cec-9526-e245af134302</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0fe345a2-f66f-4b78-8f26-c2e0a0f2efc2</variableId>
+      <variableId>fea7eb44-54ae-4b70-8ec8-f9487187ca3d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0fe345a2-f66f-4b78-8f26-c2e0a0f2efc2</id>
+      <id>fea7eb44-54ae-4b70-8ec8-f9487187ca3d</id>
       <masked>false</masked>
-      <name>productName</name>
+      <name>randomProductName</name>
    </variable>
 </TestCaseEntity>

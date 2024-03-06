@@ -6,12 +6,12 @@
    <elementGuidId>738dc3d4-c9ae-4bb2-8257-131cdf62b13d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.p-5.notification-list > li > a.notification.my-4.px-2.position-relative > div.notification-body.me-4 > div.notification-body.fs-5</value>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil di terbitkan'])[10]/following::div[1]</value>
+         <key>CSS</key>
+         <value>ul.p-5.notification-list > li > a.notification.my-4.px-2.position-relative > div.notification-body.me-4 > div.notification-body.fs-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a2c145ee-77e3-4422-af09-9a7725e4bdff</webElementGuid>
+      <webElementGuid>4a3c5048-5e78-49d5-8cdd-430822051022</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>notification-body fs-5</value>
-      <webElementGuid>226855f2-78bb-45fa-b6f9-23c8f9b45219</webElementGuid>
+      <webElementGuid>a7f4011d-5d41-42f4-b606-e7356484e181</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>buku abu-abuRp 500</value>
-      <webElementGuid>2d75d453-72cf-43d4-86cc-45ede355b088</webElementGuid>
+      <webElementGuid>55411d05-7846-4fd4-bea6-52c2d7e617ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container-sm&quot;]/ul[@class=&quot;p-5 notification-list&quot;]/li[1]/a[@class=&quot;notification my-4 px-2 position-relative&quot;]/div[@class=&quot;notification-body me-4&quot;]/div[@class=&quot;notification-body fs-5&quot;]</value>
-      <webElementGuid>58436b96-27d6-44fe-bc4f-f3702a286db3</webElementGuid>
+      <webElementGuid>a34541b1-e5ef-4015-bab0-3010daf8994b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil di terbitkan'])[10]/following::div[1]</value>
-      <webElementGuid>9abb9c36-4ab2-43de-bac3-b20f0a277ae7</webElementGuid>
+      <webElementGuid>3d99a1c5-e6a1-4c4e-a735-d760378b7898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil di terbitkan'])[11]/preceding::div[2]</value>
-      <webElementGuid>becec729-e0c7-48bc-80ee-020b1999837c</webElementGuid>
+      <webElementGuid>207489c4-ed6f-4b0e-b947-ed977eb1078a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='kacang biruRp 5.000'])[2]/preceding::div[3]</value>
-      <webElementGuid>c9719778-3dde-40f5-86d7-11231d596bf6</webElementGuid>
+      <webElementGuid>8a0ebd9f-5d93-42fb-bf8a-2ce74601272a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/ul/li/a/div/div[2]</value>
-      <webElementGuid>59991e25-bfa4-434a-ab62-e109213c2bdb</webElementGuid>
+      <webElementGuid>dfff9827-fe83-4d84-bfc4-5540dadf97a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'buku abu-abuRp 500' or . = 'buku abu-abuRp 500')]</value>
-      <webElementGuid>5c54bb2d-3718-4e67-adf5-990c15f5a137</webElementGuid>
+      <webElementGuid>24c0af82-92cd-479c-8440-1273cac9b014</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

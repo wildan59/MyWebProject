@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/icon_notifikasi'))
-
-WebUI.click(findTestObject('SecondHand Website/Notifications Page/product name (w)'))
+WebUI.verifyTextNotPresent(productName, false)
 
