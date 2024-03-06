@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5b02bb7f-fd6d-4f94-b298-4e98f115786d</testSuiteGuid>
    <testCaseLink>
-      <guid>deceb038-49b1-4c75-a4c5-ad30d31a6c2a</guid>
+      <guid>da3e0908-07aa-42ce-b3d0-e9b79f2d8d69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP001 - Offer Product without Login</testCaseId>
@@ -25,7 +25,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>698f87ea-e6c8-466f-81b5-da2cca0533d1</guid>
+      <guid>7bca9ff5-b254-4204-919f-37f4a30968cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP002 - Offer Product with Login</testCaseId>
@@ -38,7 +38,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>40f4c5af-69c6-4b30-ae3b-cdd3832bbe4a</guid>
+      <guid>f8707ee0-a49b-4dd0-8f7c-793bfff13618</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP003 - Repeated Offer Product with Login</testCaseId>
@@ -51,7 +51,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d434460b-7187-4939-86f0-20978532ce3f</guid>
+      <guid>ddb29185-2147-44b5-af47-229d30defeda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP004 - Repeated Offer Product without Login</testCaseId>
@@ -64,7 +64,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c3945152-1840-44a0-97df-c748a2db6b85</guid>
+      <guid>8eecf927-8e19-4f89-95f7-404c8c457ad1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP005 - High Bid Offer Product without Login</testCaseId>
@@ -77,7 +77,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c289176-106b-4a14-a3f1-562b7dd65e7c</guid>
+      <guid>7b0e7ce7-2638-4495-aa1d-a831ba540817</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP006 - High Bid Offer Product with Login</testCaseId>
@@ -90,7 +90,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>face5699-3fdc-43b0-9611-03fcb2a0b25e</guid>
+      <guid>59edc8e0-e10c-4caa-a419-93d11677b650</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP007 - Low Bid Offer Product without Login</testCaseId>
@@ -103,7 +103,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>580facf6-9e2e-4035-8047-300a0e033640</guid>
+      <guid>1c4cb517-478b-4cef-b7a1-a04144f91126</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP008 - Low Bid Offer Product witht Login</testCaseId>
@@ -116,7 +116,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>abd5cb46-97f2-4c81-8382-514000cc6a5d</guid>
+      <guid>d799c35b-0b09-4c9e-a942-5837672e6395</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Offer Product/OFP009 - Offer Product with Login Not Complete Profile</testCaseId>

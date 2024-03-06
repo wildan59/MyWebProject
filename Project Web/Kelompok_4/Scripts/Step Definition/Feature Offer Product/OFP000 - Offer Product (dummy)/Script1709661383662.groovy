@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('Pages/Login/02. Buyer/02. Login Success Buyer'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Select Product (2)'), [('productName') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Select Product (2)'), [('productName') : productName], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [('offerPrice') : '1'], FailureHandling.STOP_ON_FAILURE)
 

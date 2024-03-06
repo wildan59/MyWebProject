@@ -17,5 +17,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Reject Offer/RJCT001 - Reject Offer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3e12a9b1-2aff-47e5-8bce-4b2213f67cc8</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
