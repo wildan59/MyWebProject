@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Step Definition/Feature Offer Product/OFP000 - 
 
 WebUI.callTestCase(findTestCase('Pages/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Step Definition/Feature Offer Product/OFP000 - Offer Product (dummy)'), [('productName') : ''], 
+WebUI.callTestCase(findTestCase('Step Definition/Feature Offer Product/OFP000 - Offer Product (dummy)'), [('productName') : productName], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
