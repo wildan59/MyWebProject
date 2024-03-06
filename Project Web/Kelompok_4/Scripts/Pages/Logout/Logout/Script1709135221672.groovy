@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Profile'), [('username') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SecondHand Website/Homepage/icon_Profile'))
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
+WebUI.click(findTestObject('SecondHand Website/Homepage/btn_Keluar'))

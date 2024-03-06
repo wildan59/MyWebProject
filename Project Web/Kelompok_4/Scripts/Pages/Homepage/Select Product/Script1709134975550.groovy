@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('SecondHand Website/Homepage/Select Product (2)'), 0)
 
 WebUI.scrollToElement(findTestObject('SecondHand Website/Homepage/Product Name _RandomProduct', [('productName') : productName]), 
     0)

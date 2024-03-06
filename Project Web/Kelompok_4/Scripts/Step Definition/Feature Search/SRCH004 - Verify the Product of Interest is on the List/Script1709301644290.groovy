@@ -30,8 +30,8 @@ String product = 'abcde'
 
 String randomProductName = RandomStringUtils.randomAlphabetic(5)
 
-WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : '100000'
-        , ('productCategory') : 'Hobi', ('description') : 'Test aja wkwkwk'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : '1000'
+        , ('productCategory') : 'Baju', ('description') : 'baju'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -41,11 +41,32 @@ WebUI.callTestCase(findTestCase('Pages/Login/02. Buyer/02. Login Success Buyer')
 
 WebUI.callTestCase(findTestCase('Pages/Login/03. Verify User logged'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('searchKey') : randomProductName], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Search Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Homepage/Select Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Offer Product'), [('offerPrice') : '1000'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Verify Waiting Response Offer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/01. Seller/01. Login Success Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click_Btn_List_Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/List Product/Click Menu Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+
+while (true) {
+    try {
+        WebUI.callTestCase(findTestCase('Pages/List Product/Verify Product Exist'), [('productName') : randomProductName], 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    }
+    catch (Exception e) {
+        WebUI.callTestCase(findTestCase('Pages/List Product/Click Next Button'), [:], FailureHandling.STOP_ON_FAILURE)
+    } 
+}
