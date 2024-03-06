@@ -33,21 +33,12 @@ String randomProductName = RandomStringUtils.randomAlphabetic(5)
 WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : '1000'
         , ('productCategory') : 'Baju', ('description') : 'baju'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Red Dot Visible'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Pages/Homepage/Click All Notification'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Notification Page/Select Product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Notification Page/Select Product'), [('productName') : randomProductName], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Click Edit'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Detail Product Page/Click Delete'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String newProductName = 'abcde'
-
-String newRandomProductName = RandomStringUtils.randomAlphabetic(5)
-
-WebUI.callTestCase(findTestCase('Pages/Add Product/Edit Product Name'), [('productName') : newRandomProductName], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Add Product/Click Publish'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/List Product/Verify Product Exist'), [('productName') : newRandomProductName], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Notification Page/verify product not exist in list product page'), [('productName') : randomProductName], 
+    FailureHandling.STOP_ON_FAILURE)
 
