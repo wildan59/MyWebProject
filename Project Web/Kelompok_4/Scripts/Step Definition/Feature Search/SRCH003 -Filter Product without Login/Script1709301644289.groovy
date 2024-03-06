@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click Filter Category'), [('category') : category], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click Filter Category'), [('category') : 'Hobi'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Label Category in Product List'), [('category') : category, ('expected') : category], 
+WebUI.callTestCase(findTestCase('Pages/Homepage/Verify Label Category in Product List'), [('category') : 'Hobi', ('expected') : 'Hobi'], 
     FailureHandling.STOP_ON_FAILURE)
 
