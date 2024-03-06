@@ -70,4 +70,3 @@ while (true) {
         WebUI.callTestCase(findTestCase('Pages/List Product/Click Next Button'), [:], FailureHandling.STOP_ON_FAILURE)
     } 
 }
-

@@ -19,5 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.scrollToElement(findTestObject('SecondHand Website/Homepage/Select Product (2)'), 0)
 
-WebUI.click(findTestObject('SecondHand Website/Homepage/Select Product (2)'))
+WebUI.scrollToElement(findTestObject('SecondHand Website/Homepage/Product Name _RandomProduct', [('productName') : productName]), 
+    0)
+
+WebUI.click(findTestObject('SecondHand Website/Homepage/Product Name _RandomProduct', [('productName') : productName]))
 

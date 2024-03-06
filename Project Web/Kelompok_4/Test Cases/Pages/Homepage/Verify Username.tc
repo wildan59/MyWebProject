@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c2e4e14-2dbd-4b72-8dd2-1b14e8c96f8e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a00df17-401b-4649-abb1-64329d278f00</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a00df17-401b-4649-abb1-64329d278f00</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

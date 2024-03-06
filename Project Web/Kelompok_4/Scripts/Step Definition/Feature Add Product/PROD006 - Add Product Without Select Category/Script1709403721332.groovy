@@ -33,3 +33,8 @@ String randomProductName = RandomStringUtils.randomAlphabetic(5)
 WebUI.callTestCase(findTestCase('Pages/Add Product/Add Product From Homepage'), [('productName') : randomProductName, ('productPrice') : '1000'
         , ('productCategory') : 'Pilih Kategori', ('description') : 'baju'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Add Product/Validation errorMassage without Select Category'), [('categoryMessage') : 'Category must exist'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+

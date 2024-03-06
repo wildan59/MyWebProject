@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFP007 - Low Bid Offer Product without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>263f8727-c5d7-4a46-b721-ed4f7c190bbd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cfec8397-2011-48e0-8f42-08480726ad95</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cfec8397-2011-48e0-8f42-08480726ad95</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>

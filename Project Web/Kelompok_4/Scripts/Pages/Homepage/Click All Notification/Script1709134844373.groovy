@@ -22,4 +22,3 @@ WebUI.click(findTestObject('SecondHand Website/Homepage/icon_notifikasi'))
 WebUI.scrollToElement(findTestObject('SecondHand Website/Offer Information Page/link_semua_notifikasi'), 0)
 
 WebUI.click(findTestObject('SecondHand Website/Offer Information Page/link_semua_notifikasi'))
-

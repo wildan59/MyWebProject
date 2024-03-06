@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/label_error_message'))
+WebUI.verifyElementVisible(findTestObject('SecondHand Website/Login/Verify sign in or sign up'))
 
-errorText = WebUI.getText(findTestObject('SecondHand Website/Login/label_error_message'))
+errorText = WebUI.getText(findTestObject('SecondHand Website/Login/Verify sign in or sign up'))
 
 KeywordUtil.logInfo('Error Text:' + errorText)
 

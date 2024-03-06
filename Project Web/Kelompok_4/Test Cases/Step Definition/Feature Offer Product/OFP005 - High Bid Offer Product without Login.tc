@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFP005 - High Bid Offer Product without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3f0be6d-59b1-41f7-8570-e114d95f835c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45daad47-fe9e-4415-b06d-8864a8fce003</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45daad47-fe9e-4415-b06d-8864a8fce003</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>
